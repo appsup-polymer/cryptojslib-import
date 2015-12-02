@@ -3,7 +3,7 @@
 mkdir -p components
 for l in $(ls bower_components/cryptojslib/components)
  do
-   echo "<script src="../cryptojslib/components/$l"></script>" > "components/${l/.js/.html}"
+   echo "<script src="../../cryptojslib/components/$l"></script>" > "components/${l/.js/.html}"
  done
 
 
