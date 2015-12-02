@@ -1,0 +1,21 @@
+{
+  "name": "cryptojslib-import",
+  "version": "1.0.0",
+  "authors": [
+    "Rik Bellens <rik.bellens@appsup.be>"
+  ],
+  "description": "Import files for the cryptojs library to load as shared dependency.",
+  "keywords": [
+    "cryptojs",
+    "import"
+  ],
+  "main": "cryptojslib-import.html",
+  "license": "LICENSE",
+  "homepage": "https://github.com/appsup-polymer/cryptojslib-import/",
+  "ignore": [
+    "/.*"
+  ],
+  "dependencies": {
+    "cryptojslib": "~3.1.2"
+  }
+}
